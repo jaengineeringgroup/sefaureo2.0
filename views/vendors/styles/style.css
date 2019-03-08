@@ -3823,7 +3823,7 @@ tbody.collapse.show {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
+    color: #8c8f92;
     text-align: center;
     white-space: nowrap;
     background-color: #e9ecef;
@@ -23912,7 +23912,7 @@ textarea.form-control {
 }
 
 .form-control:focus~.input-group-append .fa {
-    color: #007bff;
+    color: #B28C00;
 }
 
 .form-control-lg,
@@ -24770,8 +24770,18 @@ textarea.form-control {
 
 .login-box .login-img {
     display: block;
-    margin: 0 auto 20px;
-    max-width: 100px;
+    margin: -40px 0px 20px -15px;
+    max-width: 360px;
+}
+
+.cuenta a {
+    text-align: center;
+    color: #B28C00;
+}
+
+.cuenta p {
+    text-align: center;
+    color: rgb(133, 133, 133);
 }
 
 .forgot-password {
@@ -26913,4 +26923,24 @@ textarea.form-control {
 .pasoAnimacion4 {
     animation-duration: 2s;
     animation-delay: 1.25s;
+}
+
+
+/*ESTILOS DEL LOGIN*/
+
+.btn-iniciar {
+    color: white;
+    font-weight: bold;
+    background-color: #B28C00;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sefaureo-style {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sefaureo-style:focus {
+    border-color: #B28C00 !important;
+    box-shadow: 0 0 5px rgba(178, 139, 0, 0.884) !important;
 }

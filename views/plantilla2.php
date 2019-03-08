@@ -1,3 +1,7 @@
+<?php
+/* METODO PARA UTILIZAR VARIABLE DE SESIÓN */
+  session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -5,16 +9,18 @@
 	<?php include('include/head.php'); ?>
 </head>
 <body>
-	<?php include('include/header.php'); ?>
-	<?php include('include/sidebar.php'); ?>
 	
-	<div class="main-container">
-
-		<div id="particles-js"></div>
-		<div class="pd-ltr-20 customscroll customscroll-20-p height-100-p xs-pd-20-10 formulario">
-			<div class="min-height-200px" style="filter:alpha(opacity=85); opacity:0.85;">
 			<!--AQUI SE METERA EL CONTENIDO DEL SITIOS WEB-->
 			<?php
+			if(isset($_SESSION["iniciarSesion"]) && $_SESSION["iniciarSesion"] == "ok"){
+
+				include "include/header.php";
+				include	"include/sidebar.php";
+
+				echo '<div class="main-container">';
+					echo '<div id="particles-js"></div>';
+						echo '<div class="pd-ltr-20 customscroll customscroll-20-p height-100-p xs-pd-20-10 formulario">';
+							echo '	<div class="min-height-200px" style="filter:alpha(opacity=85); opacity:0.85;">';
 				if(isset($_GET["ruta"])){
 					if ($_GET["ruta"] == "inicio" ||
 					$_GET["ruta"] == "registroEmpresa" ||
@@ -40,14 +46,22 @@
 				}else{
 					include "modulos/inicio.php";
 				}
-			?>
-				</div>
+						echo '</div>';
+					echo '</div>';
+				echo '</div>';
+
+				include "include/script.php";
+				include "include/footer.php";
+			}
+
 			
-			</div>
-			<?php include('include/footer.php');?>
-	</div>
+			else {
+				echo '<div id="particles-js"></div>';
+				include "modulos/login.php";
+				
+			}	
+	?>
 	
-	<?php include('include/script.php');?>
 	<script src="views/src/plugins/particulas/js/particles.js"></script>
     <script src="views/src/plugins/particulas/js/app.js"></script>
     <!-- stats.js -->
