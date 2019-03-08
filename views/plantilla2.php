@@ -9,16 +9,16 @@
 	<?php include('include/head.php'); ?>
 </head>
 <body>
-	
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 			<!--AQUI SE METERA EL CONTENIDO DEL SITIOS WEB-->
 			<?php
 			if(isset($_SESSION["iniciarSesion"]) && $_SESSION["iniciarSesion"] == "ok"){
 
 				include "include/header.php";
 				include	"include/sidebar.php";
-
+				echo '<div id="particles-js"></div>';
 				echo '<div class="main-container">';
-					echo '<div id="particles-js"></div>';
+				
 						echo '<div class="pd-ltr-20 customscroll customscroll-20-p height-100-p xs-pd-20-10 formulario">';
 							echo '	<div class="min-height-200px" style="filter:alpha(opacity=85); opacity:0.85;">';
 				if(isset($_GET["ruta"])){

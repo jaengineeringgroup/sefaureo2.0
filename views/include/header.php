@@ -2,7 +2,7 @@
 	<div class="pre-loader"></div>
 	<div class="header clearfix">
 
-		<div class="header-right ">
+		<div class="header-right" style="filter:alpha(opacity=85); opacity:0.85;">
 			<div class="brand-logo">
 				<a href="inicio">
 					<img src="views/vendors/images/logo.png" alt="" class="mobile-logo">

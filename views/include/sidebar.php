@@ -4,6 +4,8 @@
 				<img src="views/vendors/images/logo3.png" alt="">
 			</a>
 		</div>
+
+		
 		<div class="menu-block customscroll">
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">

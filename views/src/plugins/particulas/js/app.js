@@ -26,7 +26,7 @@ particlesJS('particles-js',
                 "value": "#b58100"
             },
             "shape": {
-                "type": "triangle",
+                "type": "circle",
                 "stroke": {
                     "width": 0,
                     "color": "#000000"
@@ -62,15 +62,15 @@ particlesJS('particles-js',
             },
             "line_linked": {
                 "enable": true,
-                "distance": 150,
-                "color": "#1b0f60",
+                "distance": 95,
+                "color": "#474b4e",
                 "opacity": 0.4,
                 "width": 1
             },
             "move": {
                 "enable": true,
                 "speed": 2,
-                "direction": "top",
+                "direction": "none",
                 "random": false,
                 "straight": false,
                 "out_mode": "bounce",

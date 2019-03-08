@@ -13,10 +13,10 @@
 		 <div id="smartwizard">
 
             <ul class="pasos animated fadeIn">
-                <li class="pasoAnimacion1 animated fadeIn"><a class="pasoAnimacion1.1 animated slideInLeft" href="#step-1" id="condicion" onclick="validar();">1<br /><small class="titulos">Datos Generales</small></a></li>
-                <li class="pasoAnimacion2 animated fadeIn slideInLeft"><a href="#step-2" id="condicion1" onclick="validar();">2<br /><small>Dirección</small></a></li>
-                <li class="pasoAnimacion3 animated fadeIn slideInLeft"><a href="#step-3" id="condicion2" onclick="validar();">3<br /><small>Clientes</small></a></li>
-                <li class="pasoAnimacion4 animated  fadeIn slideInLeft"><a href="#step-4" id="condicion3" onclick="validar();">4<br /><small>Descripción</small></a></li>
+                <li class="pasoAnimacion1 animated fadeIn"><a class="pasoAnimacion1.1 animated slideInLeft" href="#step-1" id="condicion" onclick="validar();"><br /></a></li>
+                <li class="pasoAnimacion2 animated fadeIn slideInLeft"><a href="#step-2" id="condicion1" onclick="validar();"><br /></a></li>
+                <li class="pasoAnimacion3 animated fadeIn slideInLeft"><a href="#step-3" id="condicion2" onclick="validar();"><br /></a></li>
+                <li class="pasoAnimacion4 animated  fadeIn slideInLeft"><a href="#step-4" id="condicion3" onclick="validar();"><br /></a></li>
             </ul>
 
             <div>
