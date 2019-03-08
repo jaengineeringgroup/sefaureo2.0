@@ -14,7 +14,7 @@ class ControladorUsuarios{
 
             {
                 /* Variable de la tabla */
-                $tabla = "1";
+                $tabla = "usuarios";
                 /* Variable de la columna usuario */
                 
                 $item = "usuario";
