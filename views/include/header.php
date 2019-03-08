@@ -11,7 +11,11 @@
 
 			<!-- :::: FECHA ::::: -->
 			<div class="fecha"> 
-					<p>martes, 19 de febrero del 2019</p>
+				<!-- <p>martes, 19 de febrero del 2019</p> -->
+				<?php 
+					$fec = new funcionGral(); 
+					echo $fec -> fecha();  
+				?>
 			</div>
 
 

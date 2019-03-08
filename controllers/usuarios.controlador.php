@@ -27,7 +27,7 @@ class ControladorUsuarios{
 
                 /*CON ESTA FUNCION SE IMPRIME TODO LO QUE SE ALMACENO EN LA VARIABLE DE
                 " respuesta"  */
-                var_dump($respuesta["usuario"]);
+                /*var_dump($respuesta["usuario"]);*/
 
                 /* $respuesta["campo de la tabla de BD"] */
                 if ($respuesta["usuario"] == $_POST["ingUsuario"] && 

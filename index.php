@@ -3,6 +3,7 @@
 /* SE MANDAN A LLAMAR LOS CONTROLADORES*/
 require_once "controllers/plantilla.controlador.php";
 require_once "controllers/usuarios.controlador.php";
+require_once "controllers/funciones.controlador.php";
 
 /*SE MANDAN A LLAMAR LOS MODELOS */
 require_once "models/usuarios.modelo.php";
