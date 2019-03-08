@@ -2,7 +2,7 @@
 
 class funcionGral{
     static public function fecha(){
-        $timestamp = strtotime($fecha);
+        $timestamp = strtotime(date("F j, Y"));
         $meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
         $semana = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
         
