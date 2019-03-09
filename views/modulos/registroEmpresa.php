@@ -7,19 +7,22 @@
 				
 					<div class="clearfix tituloSeccion">
 						<h5 class="text-light-blue">Registro de Empresa</h5>
+						<div class="grafica">
+						<h1>Proceso</h1>
+					</div>
 					</div>
 				
 		 <!-- COMIENZA EL FORMULARIO -->
 		 <div id="smartwizard">
+				<ul class="pasos animated fadeIn">
+					<li class=""><a href="#step-1" id="condicion" onclick="validar();"><br/></a></li>
+					<li class=""><a href="#step-2" id="condicion1" onclick="validar();"><br/></a></li>
+					<li class=""><a href="#step-3" id="condicion2" onclick="validar();"><br/></a></li>
+					<li class=""><a href="#step-4" id="condicion3" onclick="validar();"><br/></a></li>
+				</ul>
+				
 
-            <ul class="pasos animated fadeIn">
-                <li class="pasoAnimacion1 animated fadeIn"><a class="pasoAnimacion1.1 animated slideInLeft" href="#step-1" id="condicion" onclick="validar();"><br /></a></li>
-                <li class="pasoAnimacion2 animated fadeIn slideInLeft"><a href="#step-2" id="condicion1" onclick="validar();"><br /></a></li>
-                <li class="pasoAnimacion3 animated fadeIn slideInLeft"><a href="#step-3" id="condicion2" onclick="validar();"><br /></a></li>
-                <li class="pasoAnimacion4 animated  fadeIn slideInLeft"><a href="#step-4" id="condicion3" onclick="validar();"><br /></a></li>
-            </ul>
-
-            <div>
+            <div class="contenidoFormulario">
                 <!--OPCION 1-->
                 <div id="step-1" class="">
                     <div class="row">

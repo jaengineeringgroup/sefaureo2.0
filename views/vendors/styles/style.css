@@ -24456,8 +24456,7 @@ textarea.form-control {
     position: relative;
     /*height: 44px;*/
     text-align: center;
-    font-weight: 500;
-    margin-top: -52px;
+    margin-top: -40px;
 }
 
 
@@ -26874,7 +26873,7 @@ textarea.form-control {
 .footer-wrap p {
     font-size: 13px;
     color: white;
-    margin-left: 160px;
+    padding-left: 160px;
 }
 
 .footer-wrap a {
@@ -26895,7 +26894,7 @@ textarea.form-control {
     font-size: 20px;
 }
 
-.imagenInicio img {
+.imagenInicio {
     margin-top: 100px;
 }
 
@@ -26950,4 +26949,9 @@ textarea.form-control {
 .sefaureo-style:focus {
     border-color: #B28C00 !important;
     box-shadow: 0 0 5px rgba(178, 139, 0, 0.884) !important;
+}
+
+.grafica {
+    position: absolute;
+    margin-left: 50em;
 }

@@ -12,7 +12,8 @@ class funcionGral{
         $year = date('Y', $timestamp);
         
         $fecha = "$semana[$diatxt], $dia de " . $meses[$mes] . " del $year";
-        return $fecha;
+        echo '<p>'.$fecha. '<p>';
+
     }
 
 }

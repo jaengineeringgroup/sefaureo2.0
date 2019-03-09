@@ -21,6 +21,8 @@
 				
 						echo '<div class="pd-ltr-20 customscroll customscroll-20-p height-100-p xs-pd-20-10 formulario">';
 							echo '	<div class="min-height-200px" style="filter:alpha(opacity=85); opacity:0.85;">';
+
+							
 				if(isset($_GET["ruta"])){
 					if ($_GET["ruta"] == "inicio" ||
 					$_GET["ruta"] == "registroEmpresa" ||

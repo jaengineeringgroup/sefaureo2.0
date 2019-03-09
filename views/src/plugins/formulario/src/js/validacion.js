@@ -11,18 +11,18 @@ function colorNormal(id) {
 
 function error(id) {
     obj = document.getElementById(id);
-    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(221, 65, 61);') ? 'transparent' : 'red';
+    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(221, 65, 61);') ? 'transparent' : '#DD413D';
 }
 
 function warning(id) {
     obj = document.getElementById(id);
-    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(239, 183, 56);') ? 'transparent' : '#ffffff';
+    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(63, 203, 95);') ? 'transparent' : '#EFB738';
 
 }
 
 function correcto(id) {
     obj = document.getElementById(id);
-    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(63, 203, 95);') ? 'transparent' : '#ffffff';
+    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(63, 203, 95);') ? 'transparent' : '#3FCB5F';
 
 }
 

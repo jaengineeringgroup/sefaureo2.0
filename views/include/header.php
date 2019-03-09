@@ -11,15 +11,12 @@
 
 			<!-- :::: FECHA ::::: -->
 			<div class="fecha"> 
-				<!-- <p>martes, 19 de febrero del 2019</p> -->
 				<?php 
 					$fec = new funcionGral(); 
-					echo $fec -> fecha();  
+					echo $fec ->  fecha();
 				?>
 			</div>
-
-
-	
+			
 			<!-- :::: MENU DE OPCIONES EN RESPONSIVO ::::: -->
 			<div class="menu-icon">
 				<span></span>
