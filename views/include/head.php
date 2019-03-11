@@ -34,6 +34,9 @@
 	<link rel="stylesheet" type="text/css" href="views/src/plugins/datatables/media/css/responsive.dataTables.css">
 	<!-- ::::::::::::... TERMINAN LOS ESTILOS DE LA TABLA ...:::::::::-->
 	
+	<!-- PALETA DE COLORES DEL SISTEMA -->
+	<link rel="stylesheet" href="views/vendors/styles/colores.css">
+	<!--  TERMINA PALETA DE COLORES DEL SISTEMA -->
 	
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->

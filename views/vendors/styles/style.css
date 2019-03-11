@@ -268,7 +268,7 @@ select,
 optgroup,
 textarea {
     margin: 0;
-    font-family: inherit;
+    font-family: 'Montserrat', sans-serif;
     font-size: inherit;
     line-height: inherit;
 }
@@ -22731,6 +22731,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 
 .select2-container--default .select2-results__option .select2-results__option {
     padding-left: 1em;
+    font-size: 14px;
 }
 
 .select2-container--default .select2-results__option .select2-results__option .select2-results__group {
@@ -24322,7 +24323,10 @@ textarea.form-control {
     position: relative;
     right: 0;
     float: right;
+    /*
     display: none;
+    */
+    display: block;
 }
 
 .user-info-dropdown {
@@ -24453,7 +24457,7 @@ textarea.form-control {
 
 .footer-wrap {
     width: 100%;
-    position: relative;
+    position: fixed;
     /*height: 44px;*/
     text-align: center;
     margin-top: -40px;
@@ -26874,6 +26878,7 @@ textarea.form-control {
     font-size: 13px;
     color: white;
     padding-left: 160px;
+    padding-top: 10px;
 }
 
 .footer-wrap a {
@@ -26954,4 +26959,22 @@ textarea.form-control {
 .grafica {
     position: absolute;
     margin-left: 50em;
+}
+
+
+/*ESTILOS DEL MODAL TERMINOS Y CONDICIONES*/
+
+.modal-header h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal-body p,
+li {
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal-body a {
+    color: #B28C00;
+    font-weight: bold;
 }

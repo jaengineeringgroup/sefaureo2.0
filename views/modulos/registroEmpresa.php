@@ -29,24 +29,24 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label>Nombre:</label>
-                                <input type="text" class="form-control" id="txt_nombre">
+                                <input type="text" class="form-control sefaureo-style" id="txt_nombre">
                             </div>
 
                             <div class="form-group">
                                 <label>Sucursal: </label>
-                                <input type="text" class="form-control" id="txt_sucursal">
+                                <input type="text" class="form-control sefaureo-style" id="txt_sucursal">
                             </div>
 
                             <div class="form-group">
                                 <label>Corporativo:</label>
-                                <input type="text" class="form-control" id="txt_corp">
+                                <input type="text" class="form-control sefaureo-style" id="txt_corp">
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label>Imagen</label>
-                                <textarea class="form-control"></textarea>
+                                <textarea class="form-control sefaureo-style"></textarea>
                             </div>
                         </div>
 					</div>
@@ -66,28 +66,28 @@
 									<div class="col-md-4">
 										<div class="form-group">
 											<label >Calle:</label>
-											<input type="text" class="form-control" id="txt_calle">
+											<input type="text" class="form-control sefaureo-style" id="txt_calle">
 										</div>
 									</div>
 
 									<div class="col-md-3">
 										<div class="form-group">
 											<label >Numero exterior:</label>
-											<input type="text" class="form-control" id="txt_numext">
+											<input type="text" class="form-control sefaureo-style" id="txt_numext">
 										</div>
 									</div>
 
 									<div class="col-md-3">
 										<div class="form-group">
 											<label >Numero interior:</label>
-											<input type="text" class="form-control" id="txt_numint">
+											<input type="text" class="form-control sefaureo-style" id="txt_numint">
 										</div>
 									</div>
 
 									<div class="col-md-2">
 										<div class="form-group">
 											<label >Codigo postal:</label>
-											<input type="text" class="form-control" id="txt_cp">
+											<input type="text" class="form-control sefaureo-style" id="txt_cp">
 										</div>
 									</div>
 
@@ -97,7 +97,7 @@
 									<div class="col-md-12">
 										<div class="form-group">
 											<label>Colonia:</label>
-											<input type="text" class="form-control" id="txt_colonia">
+											<input type="text" class="form-control sefaureo-style" id="txt_colonia">
 										</div>
 									</div>
 								</div>
@@ -107,7 +107,7 @@
 									<div class="col-md-4">
 										<div class="form-group">
 											<label>Estado:</label>
-											<select class="custom-select2 form-control" name="state" style="width: 100%; height: 38px;">
+											<select class="custom-select2 form-control sefaureo-style" name="state" style="width: 100%; height: 38px;">
 												<optgroup label="Mexico">
 													<option value="mx">Estado de Mexico</option>
 													<option value="df">Distrito Federal</option>
@@ -119,7 +119,7 @@
 									<div class="col-md-4">
 										<div class="form-group">
 											<label>Municipio:</label>
-											<select class="custom-select2 form-control" name="state" style="width: 100%; height: 38px;">
+											<select class="custom-select2 form-control sefaureo-style" name="state" style="width: 100%; height: 38px;">
 												<optgroup label="Mexico">
 													<option value="acu">Aculco</option>
 													<option value="cali">Calimaya</option>
@@ -129,7 +129,7 @@
 									</div>
 
 									<div class="col-md-4">
-										<div class="form-group">
+										<div class="form-group sefaureo-style">
 											<label>Pais</label>
 											<input type="text" class="form-control" value="México" readonly>
 										</div>
@@ -140,13 +140,13 @@
 									<div class="col-md-6">
 										<div class="form-group">
 											<label>Dirigido a: </label>
-											<input type="text" class="form-control" placeholder="Dirigido a 1" id="txt_dirg1">
+											<input type="text" class="form-control sefaureo-style" placeholder="Dirigido a 1" id="txt_dirg1">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
 											<label>Dirigido a: </label>
-											<input type="text" class="form-control" placeholder="Dirigido a 2" id="txt_dirg2">
+											<input type="text" class="form-control sefaureo-style" placeholder="Dirigido a 2" id="txt_dirg2">
 										</div>
 									</div>
 								</div>
@@ -167,21 +167,21 @@
 									<div class="col-md-5">
 										<div class="form-group">
 											<label >Cliente:</label>
-											<input type="text" class="form-control" id="txt_cliente">
+											<input type="text" class="form-control sefaureo-style" id="txt_cliente">
 										</div>
 									</div>
 
 									<div class="col-md-4">
 										<div class="form-group">
 											<label >Representante legal:</label>
-											<input type="text" class="form-control" id="txt_reprlegal">
+											<input type="text" class="form-control sefaureo-style" id="txt_reprlegal">
 										</div>
 									</div>
 
 									<div class="col-md-3">
 										<div class="form-group">
 											<label >R.F.C</label>
-											<input type="text" class="form-control" id="txt_rfc">
+											<input type="text" class="form-control sefaureo-style" id="txt_rfc">
 										</div>
 									</div>
 						</div>
@@ -190,28 +190,28 @@
 										<div class="col-md-3">
 											<div class="form-group">
 												<label>Telefono:</label>
-												<input type="text" class="form-control" id="txt_tel">
+												<input type="text" class="form-control sefaureo-style" id="txt_tel">
 											</div>
 										</div>
 
 										<div class="col-md-3">
 											<div class="form-group">
 												<label>Celular:</label>
-												<input type="text" class="form-control" id="txt_cel">
+												<input type="text" class="form-control sefaureo-style" id="txt_cel">
 											</div>
 										</div>
 										
 										<div class="col-md-3">
 											<div class="form-group">
 												<label>Correo electronico:</label>
-												<input type="text" class="form-control" id="txt_email">
+												<input type="text" class="form-control sefaureo-style" id="txt_email">
 											</div>
 										</div>
 
 										<div class="col-md-3">
 											<div class="form-group">
 												<label>Sitio web:</label>
-												<input type="text" class="form-control" id="txt_web">
+												<input type="text" class="form-control sefaureo-style" id="txt_web">
 											</div>
 									</div>
 						</div>
@@ -222,7 +222,7 @@
 											<div class="form-group">
 												<label>Horario laboral:</label>
 												<select class="custom-select2 form-control" name="state" style="width: 100%; height: 38px;">
-													<optgroup label="Mexico">
+													<optgroup label="Mexico" class="seleccion">
 														<option value="lu">Lunes</option>
 														<option value="ma">Martes</option>
 														<option value="mi">Miercoles</option>
@@ -286,14 +286,14 @@
 										<div class="col-md-12 col-sm-12">
 											<div class="form-group">
 												<label>Distancia en KM aproximada al volcán: <small> (opcional, si es > 500)</small></label>
-												<input id="txt_distancia" type="text" value="10" name="demo_vertical2">
+												<input id="txt_distancia" type="text" value="10" name="demo_vertical2" class="sefaureo-style">
 											</div>
 										</div>
 
 										<div class="col-md-12 col-sm-12">
 											<div class="form-group">
 												<label>Descripción del inmueble:</label>
-												<input type="text" class="form-control" id="txt_descripInmueble">
+												<input type="text" class="form-control sefaureo-style" id="txt_descripInmueble">
 											</div>
 										</div>
 								</div>
@@ -302,7 +302,7 @@
 										<div class="col-md-12">
 											<div class="form-group">
 												<label>Descripción del giro de la empresa</label>
-												<textarea class="form-control" id="txt_descripEmpresa" rows="2"></textarea>
+												<textarea class="form-control sefaureo-style" id="txt_descripEmpresa" rows="2"></textarea>
 											</div>
 										</div>
 								</div>
