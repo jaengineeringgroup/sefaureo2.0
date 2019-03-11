@@ -16,4 +16,9 @@ class funcionGral{
 
     }
 
+    static public function cerrarSesion(){
+        $_SESSION["iniciarSesion"] = "";
+        $_SESSION["usuario"]["nombre"] = "";
+    }
+
 }
