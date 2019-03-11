@@ -35,6 +35,7 @@
 					$_GET["ruta"] == "plantillas" ||
 					$_GET["ruta"] == "reportes" ||
 					$_GET["ruta"] == "capacitacion" ||
+					$_GET["ruta"] == "salir" ||
 					$_GET["ruta"] == "registroUsuario" ||
 					$_GET["ruta"] == "usuarios") 
 					{

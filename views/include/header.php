@@ -34,7 +34,7 @@
 					<div class="dropdown-menu dropdown-menu-right">
 						<a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Perfil</a>
 						<a class="dropdown-item" href="#"><i class="fa fa-cog" aria-hidden="true"></i> Configuración</a>
-						<a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Salir</a>
+						<a class="dropdown-item" href="salir"><i class="fa fa-sign-out" aria-hidden="true"></i> Salir</a>
 					</div>
 				</div>
 			</div>

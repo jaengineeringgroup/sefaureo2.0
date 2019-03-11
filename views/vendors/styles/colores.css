@@ -1,0 +1,74 @@
+/*PALETA DE COLORES DEL SISTEMA*/
+
+
+/*
+color de fondo normal: background-color: rgb(var(--color));
+color normal texto: color: rgb(var(--color));
+color de texto alpha: color: rgb(var(--color), 0.473);
+color de fondo alpha:background: rgb(var(--color), 0.089);
+*/
+
+:root {
+    /*
+    color: rgb(255, 153, 0);
+    */
+    --color: 4, 182, 25;
+    --colorInput:
+}
+
+
+/*COLOR DE FUENTES*/
+
+.sidebar-menu .dropdown-toggle.active,
+.sidebar-menu .dropdown-toggle.active .fa,
+.sidebar-menu .show>.dropdown-toggle,
+.sidebar-menu .show>.dropdown-toggle .fa,
+.sidebar-menu .submenu li:before,
+.sidebar-menu .submenu li a:hover,
+.sidebar-menu .submenu li a.active,
+.footer-wrap {
+    color: rgb(var(--color));
+}
+
+.sidebar-menu .dropdown-toggle:hover,
+.sidebar-menu .dropdown-toggle:active,
+.sidebar-menu .dropdown-toggle.active,
+.sidebar-menu .submenu,
+.sidebar-menu .show>.dropdown-toggle {
+    background: rgb(var(--color), 0.089);
+    color: rgb(var(--color));
+}
+
+.sidebar-menu .dropdown-toggle .fa {
+    color: rgb(var(--color), 0.473);
+}
+
+.sidebar-menu .dropdown-toggle:hover .fa,
+.sidebar-menu .show>.dropdown-toggle .fa {
+    color: rgb(var(--color));
+}
+
+
+/*ICONO DE USUARIO*/
+
+.user-info-dropdown .dropdown-toggle .user-icon {
+    border: 1px solid rgb(var(--color));
+    color: rgb(var(--color));
+}
+
+
+/*HOVER DE LA TABLA*/
+
+table.dataTable.hover tbody tr:hover,
+table.dataTable.display tbody tr:hover {
+    background: rgb(var(--color), 0.089);
+    color: rgb(var(--color));
+}
+
+
+/*COLOR DE FONDO*/
+
+.footer-wrap,
+.sidebar-menu .submenu li:before {
+    background-color: rgb(var(--color));
+}
