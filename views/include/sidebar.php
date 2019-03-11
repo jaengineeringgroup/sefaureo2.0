@@ -1,9 +1,11 @@
 	<div class="left-side-bar">
 		<div class="brand-logo">
 			<a href="inicio">
-				<img src="views/vendors/images/logo3.png" alt="">
+				<img src="views/vendors/images/logosdesk.png" alt="">
 			</a>
 		</div>
+
+		
 		<div class="menu-block customscroll">
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
@@ -20,8 +22,8 @@
 								<span class="fa fa-building"></span><span class="mtext">Empresa</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="registroEmpresa">Registro de Empresa</a></li>
-								<li><a href="empresas">Empresas</a></li>
+								<li><a href="registroEmpresa">Agregar Empresa</a></li>
+								<li><a href="empresas">Empresas registradas</a></li>
 							</ul>
 						</li>
 		<!-- :::::::::::: OPCION DE GENERADOR DE REPORTES :::::::::::::-->

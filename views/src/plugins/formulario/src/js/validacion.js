@@ -6,7 +6,7 @@ boton2 = $('#prev-btn');
 /*COLORES DE ADVERTENCIA */
 function colorNormal(id) {
     obj = document.getElementById(id);
-    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(178, 140, 0);') ? 'transparent' : '#B28C00';
+    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(178, 140, 0);') ? 'transparent' : '#ffffff';
 }
 
 function error(id) {
@@ -16,7 +16,7 @@ function error(id) {
 
 function warning(id) {
     obj = document.getElementById(id);
-    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(239, 183, 56);') ? 'transparent' : '#EFB738';
+    obj.style.backgroundColor = (obj.style.backgroundColor == 'rgb(63, 203, 95);') ? 'transparent' : '#EFB738';
 
 }
 
@@ -91,18 +91,18 @@ function validarPaso3() {
 
 }
 
-function validarPaso4(){
+function validarPaso4() {
     distancia = $('#txt_distancia').val();
     inmueble = $('#txt_descripInmueble').val();
     descripcion = $('#txt_descripEmpresa').val();
 
-    id = "condicion3"; 
+    id = "condicion3";
 
     if (distancia === '' && inmueble === '' && descripcion === '') {
         error(id);
-    }else if(distancia === '' || inmueble === '' || descripcion === ''){
+    } else if (distancia === '' || inmueble === '' || descripcion === '') {
         warning(id);
-    }else {
+    } else {
         correcto(id);
     }
 }

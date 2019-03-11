@@ -2,7 +2,7 @@
 	<div class="pre-loader"></div>
 	<div class="header clearfix">
 
-		<div class="header-right ">
+		<div class="header-right" style="filter:alpha(opacity=85); opacity:0.85;">
 			<div class="brand-logo">
 				<a href="inicio">
 					<img src="views/vendors/images/logo.png" alt="" class="mobile-logo">
@@ -11,11 +11,12 @@
 
 			<!-- :::: FECHA ::::: -->
 			<div class="fecha"> 
-					<p>martes, 19 de febrero del 2019</p>
+				<?php 
+					$fec = new funcionGral(); 
+					echo $fec ->  fecha();
+				?>
 			</div>
-
-
-	
+			
 			<!-- :::: MENU DE OPCIONES EN RESPONSIVO ::::: -->
 			<div class="menu-icon">
 				<span></span>
@@ -28,7 +29,7 @@
 				<div class="dropdown">
 					<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
 						<span class="user-icon"><i class="fa fa-user-o"></i></span>
-						<span class="user-name">Gabriel Cervantes</span>
+						<span class="user-name"><?php echo $_SESSION["usuario"]["nombre"]?></span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Perfil</a>
