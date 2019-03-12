@@ -22,12 +22,13 @@ class ControladorUsuarios{
                 $respuesta = ModeloUsuarios::MdlMostrarUsuarios($tabla, $item, $valor);
                 /*CON ESTA FUNCION SE IMPRIME TODO LO QUE SE ALMACENO EN LA VARIABLE DE
                 " respuesta"  */
-                /*var_dump($respuesta["usuario"]);*/
+                
                 /* $respuesta["campo de la tabla de BD"] */
                 if ($respuesta[$item] == $_POST["ingUsuario"] && 
                     $respuesta["password"] == $_POST["ingPassword"]) {
                         
                         $_SESSION["iniciarSesion"] = "ok";
+
                         $_SESSION["usuario"]["nombre"] = $respuesta["nombre"].' '.$respuesta["apellido"];
                         
                         echo '<script>

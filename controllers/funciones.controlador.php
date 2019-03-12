@@ -15,10 +15,4 @@ class funcionGral{
         echo '<p>'.$fecha. '<p>';
 
     }
-
-    static public function cerrarSesion(){
-        $_SESSION["iniciarSesion"] = "";
-        $_SESSION["usuario"]["nombre"] = "";
-    }
-
 }

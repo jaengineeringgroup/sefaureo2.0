@@ -36,6 +36,8 @@
 					$_GET["ruta"] == "reportes" ||
 					$_GET["ruta"] == "capacitacion" ||
 					$_GET["ruta"] == "salir" ||
+					$_GET["ruta"] == "perfil" ||
+					$_GET["ruta"] == "configuracion" ||
 					$_GET["ruta"] == "registroUsuario" ||
 					$_GET["ruta"] == "usuarios") 
 					{

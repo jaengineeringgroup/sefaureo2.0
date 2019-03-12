@@ -72,3 +72,13 @@ table.dataTable.display tbody tr:hover {
 .sidebar-menu .submenu li:before {
     background-color: rgb(var(--color));
 }
+
+
+/*COLOR DE SIDE BAR*/
+
+.left-side-bar .menu-block {
+    background: #ffffff;
+}
+
+
+/*TERMINAN LOS COLORES DEL SIDE BAR*/
