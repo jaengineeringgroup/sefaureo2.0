@@ -13,18 +13,18 @@
 
                     <div class="col-md-12">
                                 <div class="input-group">
-                                    <button class="btn btn-warning btn-sm btn-block btn-iniciar" href="inicio" type="submit">Iniciar sesión</button>
+                                    <button class="btn btn-warning btn-sm btn-block btn-iniciar" id="btn-iniciar" href="inicio" type="submit" disabled>Iniciar sesión</button>
                                 </div>
                     </div>  
 
 				<div class="input-group custom input-group-lg">
-					<input type="text" class="form-control sefaureo-style" placeholder="Usuario" name="ingUsuario" required>
+					<input type="text" class="form-control sefaureo-style" placeholder="Usuario" name="ingUsuario" id="ingUsuario" required>
 					<div class="input-group-append custom">
 						<span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
 					</div>
 				</div>
 				<div class="input-group custom input-group-lg">
-					<input type="password" class="form-control sefaureo-style" placeholder="Contraseña" name="ingPassword" required>
+					<input type="password" class="form-control sefaureo-style" placeholder="Contraseña" name="ingPassword" id="ingPassword" required>
 					<div class="input-group-append custom">
 						<span class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></span>
 					</div>
@@ -54,16 +54,15 @@
                 </div>
                 <!-- :::::::::.. TERMINA SESION CONTRASEÑA Y CUENTA ..::::::: -->
 
-                 <!-- CODIGO DE PHP PARA EL FORMULARIO -->
-            <?php
+                <!-- CODIGO DE PHP PARA EL FORMULARIO -->
+                <?php
 
-                /* SE CREA EL OBJETO CONTROLADOR USUARIOS  */
-                 $login = new ControladorUsuarios(); 
-                /* EJECUTA EL METODO DE LA CLASE "ControladorUsuarios" */
-                 $login -> ctrIngresoUsuario(); 
-            ?>
-            <!-- TERMINA EL CODIGO DE PHP -->
-
+                    /* SE CREA EL OBJETO CONTROLADOR USUARIOS  */
+                    $login = new ControladorUsuarios(); 
+                    /* EJECUTA EL METODO DE LA CLASE "ControladorUsuarios" */
+                    $login -> ctrIngresoUsuario(); 
+                ?>
+                <!-- TERMINA EL CODIGO DE PHP -->
             </form>
         </div>
 		</div>
