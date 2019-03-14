@@ -9,14 +9,13 @@
              <!-- :::::::::.. TERMINA IMAGEN DE SEFAUREO ..::::::::: -->
 
              <div class="col-md-12 col-xs-12">
-            <form method="post">
+            <form method="post" >
 
                     <div class="col-md-12">
                                 <div class="input-group">
                                     <button class="btn btn-warning btn-sm btn-block btn-iniciar" id="btn-iniciar" href="inicio" type="submit" disabled>Iniciar sesión</button>
                                 </div>
                     </div>  
-
 				<div class="input-group custom input-group-lg">
 					<input type="text" class="form-control sefaureo-style" placeholder="Usuario" name="ingUsuario" id="ingUsuario" required>
 					<div class="input-group-append custom">
@@ -66,4 +65,7 @@
             </form>
         </div>
 		</div>
+        
 	</div>
+<script src="views/vendors/scripts/script.js"></script>
+<script src="sources/login.js"></script>
