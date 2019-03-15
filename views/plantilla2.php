@@ -57,19 +57,15 @@
 
 				include "include/script.php";
 				include "include/footer.php";
-			}
-
-			
-			else {
+			} else {
 				echo '<div id="particles-js"></div>';
 				include "modulos/login.php";
 				
 			}	
 	?>
-	
 	<script src="views/src/plugins/particulas/js/particles.js"></script>
-    <script src="views/src/plugins/particulas/js/app.js"></script>
-    <!-- stats.js -->
-    <script src="views/src/plugins/particulas/js/lib/stats.js"></script>
+  <script src="views/src/plugins/particulas/js/app.js"></script>
+  <!-- stats.js -->
+  <script src="views/src/plugins/particulas/js/lib/stats.js"></script>
 </body>
 </html>
