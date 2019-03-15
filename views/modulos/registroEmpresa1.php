@@ -7,7 +7,7 @@
 						
 						<div class="row">
 							<div class="col-sm-3 col-md-2">
-								<div class="progress" id="grafica" data-percentage="0">
+								<div class="progress" data-percentage="80">
 									<span class="progress-left">
 									<span class="progress-bar"></span>
 									</span>
@@ -32,7 +32,7 @@
 					<li class=""><a href="#step-1" id="condicion" onclick="validar();"><br/></a></li>
 					<li class=""><a href="#step-2" id="condicion1" onclick="validar();"><br/></a></li>
 					<li class=""><a href="#step-3" id="condicion2" onclick="validar();"><br/></a></li>
-					
+					<li class=""><a href="#step-4" id="condicion3" onclick="validar();"><br/></a></li>
 				</ul>
 				
 
@@ -181,14 +181,21 @@
 				<!--PASO 3-->
                 <div id="step-3" class="">
 					<div class="row">
-									<div class="col-md-8">
+									<div class="col-md-5">
+										<div class="form-group">
+											<label >Cliente:</label>
+											<input type="text" class="form-control sefaureo-style" id="txt_cliente">
+										</div>
+									</div>
+
+									<div class="col-md-4">
 										<div class="form-group">
 											<label >Representante legal:</label>
 											<input type="text" class="form-control sefaureo-style" id="txt_reprlegal">
 										</div>
 									</div>
 
-									<div class="col-md-4">
+									<div class="col-md-3">
 										<div class="form-group">
 											<label >R.F.C</label>
 											<input type="text" class="form-control sefaureo-style" id="txt_rfc">
@@ -289,6 +296,43 @@
 						<!--TERMINAN BOTONES DE SIGUIENTE Y ATRAS -->
 
                 </div>
+
+                <div id="step-4" class="">
+						<div class="row">
+								<div class="col-md-6">
+										<div class="col-md-12 col-sm-12">
+											<div class="form-group">
+												<label>Distancia en KM aproximada al volcán: <small> (opcional, si es > 500)</small></label>
+												<input id="txt_distancia" type="text" value="10" name="demo_vertical2" class="sefaureo-style">
+											</div>
+										</div>
+
+										<div class="col-md-12 col-sm-12">
+											<div class="form-group">
+												<label>Descripción del inmueble:</label>
+												<input type="text" class="form-control sefaureo-style" id="txt_descripInmueble">
+											</div>
+										</div>
+								</div>
+
+								<div class="col-md-6">
+										<div class="col-md-12">
+											<div class="form-group">
+												<label>Descripción del giro de la empresa</label>
+												<textarea class="form-control sefaureo-style" id="txt_descripEmpresa" rows="2"></textarea>
+											</div>
+										</div>
+								</div>
+						</div>
+						<!--BOTONES DE SIGUIENTE Y ATRAS -->
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<button class="btn btn-warning tema-btn" id="prev-btn4" type="button" onclick="descripcion();"><span class="fa fa-angle-double-left"></span></button>
+								<button class="btn btn-warning tema-btn pull-right" id="next-btn4" type="button" onclick="descripcion('#next-btn4');"><span class="fa fa-angle-double-right"></span></button>
+							</div>		
+						</div>
+						<!--TERMINAN BOTONES DE SIGUIENTE Y ATRAS -->
+				</div>
             </div>
         </div>
 		<!--TERMINA EL FORMULARIO-->

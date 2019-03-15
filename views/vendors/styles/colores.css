@@ -13,7 +13,7 @@ color de fondo alpha:background: rgb(var(--color), 0.089);
     color: rgb(255, 153, 0);
     */
     --color: 4, 182, 25;
-    --colorInput:
+    --colorSideBar: #ffffff;
 }
 
 
@@ -49,6 +49,21 @@ color de fondo alpha:background: rgb(var(--color), 0.089);
 }
 
 
+/*COLOR DE BOTONES*/
+
+.tema-btn {
+    background-color: var(--colorSideBar);
+    color: rgb(var(--color));
+    border-color: rgb(var(--color));
+}
+
+.tema-btn:hover {
+    background-color: rgb(var(--color));
+    border-color: rgb(var(--color));
+    color: var(--colorSideBar);
+}
+
+
 /*ICONO DE USUARIO*/
 
 .user-info-dropdown .dropdown-toggle .user-icon {
@@ -76,9 +91,24 @@ table.dataTable.display tbody tr:hover {
 
 /*COLOR DE SIDE BAR*/
 
-.left-side-bar .menu-block {
-    background: #ffffff;
+.left-side-bar .menu-block,
+.sw-theme-circles .step-content,
+.sw-theme-circles>ul.step-anchor,
+.contenido,
+.brand-logo a,
+.header-right,
+.menu-icon {
+    background-color: var(--colorSideBar);
 }
 
 
 /*TERMINAN LOS COLORES DEL SIDE BAR*/
+
+
+/*
+.sw-theme-circles .step-content {
+    padding: 5px 30px 0px 30px;
+    background-color: #FFF;
+    text-align: left;
+}
+*/

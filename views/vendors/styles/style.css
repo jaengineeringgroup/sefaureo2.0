@@ -24323,10 +24323,7 @@ textarea.form-control {
     position: relative;
     right: 0;
     float: right;
-    /*
     display: none;
-    */
-    display: block;
 }
 
 .user-info-dropdown {
@@ -24617,7 +24614,7 @@ textarea.form-control {
 
 .left-side-bar .menu-block {
     height: calc(100vh - 70px);
-    background: #929090;
+    background: #ffffff;
 }
 
 .sidebar-menu {
@@ -26877,7 +26874,6 @@ textarea.form-control {
 .footer-wrap p {
     font-size: 13px;
     color: white;
-    padding-left: 160px;
     padding-top: 10px;
 }
 
@@ -26977,4 +26973,14 @@ li {
 .modal-body a {
     color: #B28C00;
     font-weight: bold;
+}
+
+
+/*ESTILOS DEL CIRCULO DE PROGRESO*/
+
+#porcentaje span {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
 }

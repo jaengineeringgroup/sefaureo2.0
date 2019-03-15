@@ -4,7 +4,8 @@
 	<script src="views/src/plugins/jquery-steps/build/jquery.steps.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
 	<script type="text/javascript" src="views/src/plugins/formulario/dist/js/jquery.smartWizard.min.js"></script>
-	<script src="views/src/plugins/formulario/src/js/validacion.js"></script>
+    <script src="views/src/plugins/formulario/src/js/validacion.js"></script>
+    <script src="sources/js/login.js"></script>
 	<!-- bootstrap-touchspin js -->
 	<script src="views/src/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js"></script>
 	<script type="text/javascript">
@@ -78,10 +79,30 @@
                     },
 				},
 			});
-
-		
-        
-			
-		
 		});
-	</script>
+    </script>
+    
+<!--Scripts de los inputFile Drop  -->
+<!-- PLUGIN DRAG AN DROP FILE-->
+<script src="views/src/plugins/fileInput/js/plugins/sortable.js" type="text/javascript"></script>
+<script src="views/src/plugins/fileInput/js/fileinput.js" type="text/javascript"></script>
+<script src="views/src/plugins/fileInput/js/locales/fr.js" type="text/javascript"></script>
+<script src="views/src/plugins/fileInput/js/locales/es.js" type="text/javascript"></script>
+<script src="views/src/plugins/fileInput/themes/fas/theme.js" type="text/javascript"></script>
+<script src="views/src/plugins/fileInput/themes/explorer-fas/theme.js" type="text/javascript"></script>
+<!-- // PLUGIN DRAG AN DROP FILE-->
+
+<!--Scripts de los inputFile Drop  -->
+<script>
+	  $("#file-4").fileinput({
+        theme: 'fas',
+        language: 'es',
+        allowedFileExtensions: ['jpg', 'png', 'gif'],
+        uploadExtraData: {
+            kvId: '20'
+        }
+    });
+</script>
+<!--Scripts de los inputFile Drop  -->
+
+<!--Scripts de los inputFile Drop  -->

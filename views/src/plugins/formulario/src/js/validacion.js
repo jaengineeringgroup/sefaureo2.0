@@ -43,6 +43,81 @@ function validarPaso1() {
     }
 }
 
+function porcentaje() {
+    do {
+
+    } while (condition);
+
+
+}
+
+
+
+/*
+    var total = 100;
+
+    nombre = $('#txt_nombre').val();
+    sucursal = $("#txt_sucursal").val();
+    corp = $("#txt_corp").val();
+
+    if (nombre && sucursal && corp != "") {
+        var value = 30;
+        $('#grafica').attr("data-percentage", value.toString());
+        validarPaso1();
+
+    } else if (nombre || sucursal || corp != "") {
+        var value = 10;
+        $('#grafica').attr("data-percentage", value.toString());
+        validarPaso1();
+    } else {
+        var value = 0;
+        $('#grafica').attr("data-percentage", value.toString());
+        validarPaso1();
+    }
+*/
+
+
+
+
+
+/*
+function porcentaje() {
+    nombre = $('#txt_nombre').val();
+    sucursal = $("#txt_sucursal").val();
+    corp = $("#txt_corp").val();
+
+
+    if (nombre != "") {
+        var value = 10;
+        $('#grafica').attr("data-percentage", value.toString());
+        validarPaso1();
+
+    } else if (sucursal != "") {
+        var value = 10;
+        $('#grafica').attr("data-percentage", value.toString());
+        validarPaso1();
+    } else if (corp != "") {
+        var value = 10;
+        $('#grafica').attr("data-percentage", value.toString());
+        validarPaso1();
+    }
+
+    if (nombre != "" && sucursal != "") {
+        var value = 20;
+        $('#grafica').attr("data-percentage", value.toString());
+        validarPaso1();
+
+    }
+else if (sucursal != "" && corp != "") {
+    var value = 30;
+    $('#grafica').attr("data-percentage", value.toString());
+    validarPaso1();
+}
+
+
+}*/
+
+
 function validarPaso2() {
 
 
@@ -126,6 +201,7 @@ function datosGenerales(boton) {
     }
 
     validarPaso1();
+    porcentaje();
 
 }
 
