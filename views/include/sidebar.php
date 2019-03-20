@@ -1,12 +1,11 @@
 	<div class="left-side-bar">
-		
-		
+			
 	<div class="brand-logo">
 			<a href="inicio">
 				<img src="views/vendors/images/logosdesk.png" alt="">
 			</a>
-		</div>
-		
+	</div>
+
 		<div class="menu-block customscroll">
 
 
@@ -72,6 +71,13 @@
 								<li><a href="usuarios">Lista de usuarios</a></li>
 							</ul>
 						</li>
+
+						<li class="">
+							<a href="#" class="dropdown-toggle no-arrow" onclick="fullscr()">
+								<span class="fa fa-arrows-alt"></span><span class="mtext">Pantalla completa</span>
+							</a>
+						</li>
+						
 				</ul>
 			</div>
 		</div>

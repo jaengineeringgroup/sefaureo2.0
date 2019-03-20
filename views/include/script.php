@@ -4,9 +4,24 @@
 	<script src="views/src/plugins/jquery-steps/build/jquery.steps.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
 	<script type="text/javascript" src="views/src/plugins/formulario/dist/js/jquery.smartWizard.min.js"></script>
+<<<<<<< HEAD
+    <script src="views/src/plugins/formulario/src/js/validacion.js"></script>
+    <script src="sources/js/login.js"></script>
+    <script src="views/src/plugins/formulario/src/js/validacion.js"></script>
+    
+<!-- SCRITP DE CHART JS --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+<!-- SCRITP DE CHART JS -->
+
+    <!-- script de login  -->
+    <!-- <script src="sources/login.js"></script> -->
+
+=======
 	<script src="views/src/plugins/formulario/src/js/validacion.js"></script>
     <!-- script de login  -->
     <!-- <script src="sources/login.js"></script> -->
+>>>>>>> ee77b2d39e069847124a3553d3605af5606419aa
 	<!-- bootstrap-touchspin js -->
 	<script src="views/src/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js"></script>
 	<script type="text/javascript">
@@ -95,10 +110,10 @@
 
 <!--Scripts de los inputFile Drop  -->
 <script>
-	  $("#file-4").fileinput({
+	  $("#input-b3").fileinput({
         theme: 'fas',
         language: 'es',
-        allowedFileExtensions: ['jpg', 'png', 'gif'],
+        allowedFileExtensions: ['jpg', 'png'],
         uploadExtraData: {
             kvId: '20'
         }
@@ -107,3 +122,86 @@
 <!--Scripts de los inputFile Drop  -->
 
 <!--Scripts de los inputFile Drop  -->
+
+
+<!-- SCRIPT PARA HACER PANTALLA COMPLETA-->
+<script type="text/javascript">
+        <!--
+        window.onerror = new Function("return true");
+
+        function fullscr() {
+            if (document.documentElement.requestFullscreen) {
+                document.documentElement.requestFullscreen()
+            }
+            if (document.documentElement.msRequestFullscreen) {
+                document.documentElement.msRequestFullscreen()
+            }
+            if (document.documentElement.mozRequestFullScreen) {
+                document.documentElement.mozRequestFullScreen()
+            }
+            if (document.documentElement.webkitRequestFullScreen) {
+                document.documentElement.webkitRequestFullScreen()
+            }
+            if (typeof window.ActiveXObject !== "undefined") {
+                var wscript = new ActiveXObject("WScript.Shell");
+                if (wscript !== null) {
+                    wscript.SendKeys("{F11}")
+                }
+            }
+        }
+
+        function fullcls() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen()
+            }
+            if (document.msExitFullscreen) {
+                document.msExitFullscreen()
+            }
+            if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen()
+            }
+            if (document.webkitCancelFullScreen) {
+                document.webkitCancelFullScreen()
+            }
+            if (typeof window.ActiveXObject !== "undefined") {
+                var wscript = new ActiveXObject("WScript.Shell");
+                if (wscript !== null) {
+                    wscript.SendKeys("{F11}")
+                }
+            }
+        }
+
+        document.onkeydown = function(e) {
+                e = e ? e : window.event;
+                if (e.keyCode == 13) {
+                    fullscr();
+                    return false;
+                }
+                if (e.keyCode == 27) {
+                    fullcls();
+                    return false;
+                }
+            }
+            //-->
+    </script>
+<!-- TERMINA EL SCRIPT DE LA PANTALLA COMPLETA -->
+
+<script>
+new Chart(document.getElementById("pie-chart"), {
+    type: 'pie',
+    data: {
+      labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
+      datasets: [{
+        label: "Population (millions)",
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [2478,5267,734,784,433]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Predicted world population (millions) in 2050'
+      }
+    }
+});
+</script>

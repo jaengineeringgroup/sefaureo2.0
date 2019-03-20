@@ -19,7 +19,6 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="views/vendors/styles/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
 	
 	<!-- :::::::.... ESTILOS PARA EL FORMULARIO ...:::::::::: -->
 	<link rel="stylesheet" href="views/src/plugins/formulario/dist/css/smart_wizard.css">
@@ -52,7 +51,10 @@
 	<link rel="stylesheet" href="views/vendors/styles/colores.css">
 	<!--  TERMINA PALETA DE COLORES DEL SISTEMA -->
 	
-	
+	<!-- SCRIPT DE TINY -->
+	<script src="https://cloud.tinymce.com/5/tinymce.min.js?apiKey=2q4eey8w8odmlufzjixuhq0itfpk5wv75idrdtdeamwm32ls"></script>
+	<!-- TERMINA EL SCRIPT DE TINY -->
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
 	<script>
@@ -63,3 +65,22 @@
 	  gtag('config', 'UA-119386393-1');
 	</script>
 
+<script>
+tinymce.init({
+  selector: 'textarea#basic-example',
+  height: 500,
+  menubar: false,
+  plugins: [
+    'advlist autolink lists link image charmap print preview anchor textcolor',
+    'searchreplace visualblocks code fullscreen',
+    'insertdatetime media table paste code help wordcount'
+  ],
+  toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help',
+  content_css: [
+    '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',
+    '//www.tiny.cloud/css/codepen.min.css'
+  ]
+});
+
+</script>
+	

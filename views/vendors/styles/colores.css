@@ -63,6 +63,11 @@ color de fondo alpha:background: rgb(var(--color), 0.089);
     color: var(--colorSideBar);
 }
 
+.page-item.active .page-link {
+    background-color: rgb(var(--color));
+    border-color: rgb(var(--color));
+}
+
 
 /*ICONO DE USUARIO*/
 

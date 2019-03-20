@@ -25,6 +25,8 @@
 				<span></span>
 			</div>
 
+			
+
 			<div class="user-info-dropdown">
 				<div class="dropdown">
 					<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">

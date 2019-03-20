@@ -1,4 +1,3 @@
-
 <div class="pd-20 border-radius-4 box-shadow mb-30 contenido">
 				
 					<div class="clearfix tituloSeccion">
@@ -58,10 +57,11 @@
                         </div>
 
                         <div class="col-md-6">
-                            <div class="form-group">
-                                <label>Imagen</label>
-                                <textarea class="form-control sefaureo-style"></textarea>
-                            </div>
+							<div class="form-group">
+								<div class="file-loading">
+									<input id="input-b3" name="input-b3[]" type="file" class="file" multiple data-show-upload="false" data-show-caption="true">
+								</div>
+							</div>
                         </div>
 					</div>
 
@@ -293,3 +293,11 @@
         </div>
 		<!--TERMINA EL FORMULARIO-->
 </div>
+
+<style type="text/css">
+.krajee-default.file-preview-frame .kv-file-content {
+    width: 250px;
+	height: 100px;
+	margin-left: 70px
+}
+</style>
