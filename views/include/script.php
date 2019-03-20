@@ -4,6 +4,7 @@
 	<script src="views/src/plugins/jquery-steps/build/jquery.steps.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
 	<script type="text/javascript" src="views/src/plugins/formulario/dist/js/jquery.smartWizard.min.js"></script>
+<<<<<<< HEAD
     <script src="views/src/plugins/formulario/src/js/validacion.js"></script>
     <script src="sources/js/login.js"></script>
     <script src="views/src/plugins/formulario/src/js/validacion.js"></script>
@@ -16,6 +17,11 @@
     <!-- script de login  -->
     <!-- <script src="sources/login.js"></script> -->
 
+=======
+	<script src="views/src/plugins/formulario/src/js/validacion.js"></script>
+    <!-- script de login  -->
+    <!-- <script src="sources/login.js"></script> -->
+>>>>>>> ee77b2d39e069847124a3553d3605af5606419aa
 	<!-- bootstrap-touchspin js -->
 	<script src="views/src/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js"></script>
 	<script type="text/javascript">

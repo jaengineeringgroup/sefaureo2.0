@@ -1,17 +1,28 @@
-$(document).ready(function(){
+document.addEventListener('DOMContentLoaded', function () {
 	// console.log("Dentro de login!!");
-    $('#ingUsuario, #ingPassword').on('change',function(){
-    	var usu = $('#ingUsuario').val(); 
-    	var pas = $('#ingPassword').val(); 
+    document.querySelector('#ingUsuario').addEventListener('change',function() {
+    	var usu = document.getElementById('ingUsuario').value; 
+    	var pas = document.getElementById('pass').value; 
     	if ((usu != '') && (pas != '') && (pas.legth >= 4)){
             document.getElementById("btn-iniciar").disabled = false;
     	} else {
 			document.getElementById("btn-iniciar").disabled = true;
 		}
 	});
-	$('#ingUsuario, #ingPassword').keyup( function(e) {
-		// console.log("dentro de pass");
-    	if (($('#ingPassword').val().length >= 4 ) && ($('#ingUsuario').val() != '') ) {
+	document.querySelector('#pass').addEventListener('change',function() {
+    	var usu = document.getElementById('ingUsuario').value; 
+    	var pas = document.getElementById('pass').value; 
+    	if ((usu != '') && (pas != '') && (pas.legth >= 4)){
+            document.getElementById("btn-iniciar").disabled = false;
+    	} else {
+			document.getElementById("btn-iniciar").disabled = true;
+		}
+	});
+	document.querySelector('#ingUsuario').addEventListener('keyup', function(e) {
+		var usu = document.getElementById('ingUsuario').value; 
+    	var pas = document.getElementById('pass').value; 
+		console.log("dentro de pass", usu, pas);
+    	if ((pas.length >= 4 ) && (usu != '') ) {
 			document.getElementById("btn-iniciar").disabled = false;
 			// console.log("Dentro");
     	} else {
@@ -19,5 +30,16 @@ $(document).ready(function(){
 			// console.log("Fuera");
 		}
 	});
-	
+	document.querySelector('#pass').addEventListener('keyup', function(e) {
+		var usu = document.getElementById('ingUsuario').value; 
+    	var pas = document.getElementById('pass').value; 
+		console.log("dentro de pass", usu, pas);
+    	if ((pas.length >= 4 ) && (usu != '') ) {
+			document.getElementById("btn-iniciar").disabled = false;
+			// console.log("Dentro");
+    	} else {
+			document.getElementById("btn-iniciar").disabled = true;
+			// console.log("Fuera");
+		}
+	});
 }); 

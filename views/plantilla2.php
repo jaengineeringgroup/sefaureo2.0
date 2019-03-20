@@ -64,9 +64,16 @@
 				
 			}	
 	?>
+<<<<<<< HEAD
 <script src="views/src/plugins/particulas/js/particles.js"></script>
 <script src="views/src/plugins/particulas/js/app.js"></script>
   <!-- stats.js -->
   <script src="views/src/plugins/particulas/js/lib/stats.js"></script>
+=======
+	<script src="views/src/plugins/particulas/js/particles.js"></script>
+	<script src="views/src/plugins/particulas/js/app.js"></script>
+	<!-- stats.js -->
+	<script src="views/src/plugins/particulas/js/lib/stats.js"></script>
+>>>>>>> ee77b2d39e069847124a3553d3605af5606419aa
 </body>
 </html>

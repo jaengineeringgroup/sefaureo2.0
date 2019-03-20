@@ -13,12 +13,12 @@
 
                     <div class="col-md-12">
                                 <div class="input-group">
-                                    <button class="btn btn-warning btn-sm btn-block btn-iniciar" href="inicio" type="submit">Iniciar sesión</button>
+                                    <button class="btn btn-warning btn-sm btn-block btn-iniciar" href="inicio" type="submit" id="btn-iniciar" disabled>Iniciar sesión</button>
                                 </div>
                     </div>  
 
 				<div class="input-group custom input-group-lg">
-					<input type="text" class="form-control sefaureo-style" placeholder="Usuario" name="ingUsuario" required>
+					<input type="text" class="form-control sefaureo-style" placeholder="Usuario" name="ingUsuario" id="ingUsuario" required>
 					<div class="input-group-append custom">
 						<span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
 					</div>
@@ -68,5 +68,4 @@
         </div>
 		</div>
 	</div>
-    
-   
+<script src="sources/login.js"></script>
