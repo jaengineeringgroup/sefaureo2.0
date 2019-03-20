@@ -68,4 +68,4 @@
         </div>
 		</div>
 	</div>
-<script src="sources/login.js"></script>
+<script src="sources/js/login.js"></script>

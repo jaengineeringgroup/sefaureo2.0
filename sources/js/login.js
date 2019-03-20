@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	document.querySelector('#ingUsuario').addEventListener('keyup', function(e) {
 		var usu = document.getElementById('ingUsuario').value; 
     	var pas = document.getElementById('pass').value; 
-		console.log("dentro de pass", usu, pas);
+		// console.log("dentro de pass", usu, pas);
     	if ((pas.length >= 4 ) && (usu != '') ) {
 			document.getElementById("btn-iniciar").disabled = false;
 			// console.log("Dentro");
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	document.querySelector('#pass').addEventListener('keyup', function(e) {
 		var usu = document.getElementById('ingUsuario').value; 
     	var pas = document.getElementById('pass').value; 
-		console.log("dentro de pass", usu, pas);
+		// console.log("dentro de pass", usu, pas);
     	if ((pas.length >= 4 ) && (usu != '') ) {
 			document.getElementById("btn-iniciar").disabled = false;
 			// console.log("Dentro");
